@@ -23,10 +23,12 @@
     border:0;
 }
 
+//typography styles
 h1, h2, h3 {
     font-family: 'Bahiana', cursive , Arial;
 }
 
+//background gradient
 .homepagetop, .navbar {
     // Gradient done by @_ighosh at UIgradients.com
     background: #83a4d4; /* fallback for old browsers */
@@ -34,23 +36,18 @@ h1, h2, h3 {
     background: linear-gradient(to left, #83a4d4 , #b6fbff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+// Nav Styles
 .navbar{
     border: none;
 }
-.navbar-default .navbar-brand{
-    color: white; 
-}
-.navbar-default .navbar-nav > li > a {
-    color:white;
-}
 
-.navbar-default .navbar-brand:hover{
+//homepage styles
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
     color: white;
-    opacity: 0.75;
-}
-.navbar-default .navbar-nav > li > a:hover{
-    color:white;
-    opacity: 0.75;
+    &:hover{
+        color:white;
+        opacity: 0.75;
+    }
 }
 
 .homepagetop{
