@@ -16,7 +16,8 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 *{
     margin:0;
     padding:0;
@@ -41,7 +42,7 @@ h1, h2, h3 {
     border: none;
 }
 
-//homepage styles
+
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
     color: white;
     &:hover{
@@ -49,7 +50,7 @@ h1, h2, h3 {
         opacity: 0.75;
     }
 }
-
+//homepage styles
 .homepagetop{
     margin-top:-30px;
     padding-bottom: 50px;
