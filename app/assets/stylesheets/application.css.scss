@@ -45,15 +45,26 @@ h1, h2, h3 {
 .navbar-brand , .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
     font-family: 'Bahiana', cursive , Arial;
     font-size: 30px;
+    color:white;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
+.navbar-default .navbar-brand {
     color: white;
     &:hover{
         color:white;
         opacity: 0.75;
     }
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle{
+    border:2px solid white;
+    &:hover, &:focus{
+        background-color:#83a4d4;
+    }
+}
+
 //homepage styles
 .homepagetop{
     margin-top:-30px;
